@@ -7,9 +7,9 @@
   // ─── Configuração ──────────────────────────────────────────────
   // EDITAR: data/hora do evento (formato ISO, fuso de Portugal).
   // Exemplo: '2026-09-20T16:00:00+01:00' (setembro 2026, 16h Portugal continental).
-  const EVENT_DATETIME_ISO = '2026-09-20T16:00:00+01:00';
+  const EVENT_DATETIME_ISO = '2026-08-20T16:30:00+01:00';
   // EDITAR: email institucional para onde o formulário envia a mensagem (mailto).
-  const CONTACT_EMAIL = 'iaesponsor@example.com';
+  const CONTACT_EMAIL = 'iaegeneralsupport@gmail.com';
 
   const STORAGE_KEY = 'iae.lang';
   const SUPPORTED_LANGS = ['pt', 'en'];
