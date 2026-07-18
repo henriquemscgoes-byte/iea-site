@@ -127,7 +127,7 @@ window.I18N = {
     'contact.title':    'Vamos conversar',
     'contact.intro':    'Interessado em patrocinar o IAE, participar, ou assitir? Tem uma proposta de parceria ou quer saber mais sobre como associar a sua marca ao evento? Fale connosco.',
     'contact.discord.label': 'Discord',
-    'contact.discord.value': 'goesmcg',
+    'contact.discord.value': 'IAE',
     'contact.form.name':    'Nome no Discord',
     'contact.form.email':   'Email',
     'contact.form.company': 'Empresa',
