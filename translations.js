@@ -5,7 +5,7 @@ window.I18N = {
   pt: {
     // Meta
     'meta.title':       'International Air Expo (IAE) — PTFS',
-    'meta.description': 'O maior evento de aviação organizado pelo PTFS, com o patrocínio da Força Aérea Portuguesa.',
+    'meta.description': 'O maior evento de aviação organizado pela empresa AeroPulse, com o patrocínio da Força Aérea Portuguesa.',
 
     // Header
     'nav.about':        'Sobre',
@@ -36,7 +36,7 @@ window.I18N = {
     // About
     'about.eyebrow':    'Sobre o evento',
     'about.title':      'Onde a aviação ganha vida',
-    'about.p1':         'O International Air Expo (IAE) é um evento de aviação organizado pelo PTFS que reúne entusiastas, profissionais e curiosos numa experiência única sobrevoando uma das bases militares mais emblemáticas.',
+    'about.p1':         'O International Air Expo (IAE) é um evento de aviação organizado pela grande empresa AeroPulse que reúne entusiastas, profissionais e curiosos numa experiência única sobrevoando uma das bases militares mais emblemáticas.',
     'about.p2':         'Com o patrocínio e apoio institucional da Força Aérea Portuguesa, o IAE traz exibições aéreas, demonstrações de capacidades e a oportunidade de contactar de perto com o mundo da aviação militar e civil.',
     'about.stat1.label':'Visitantes esperados',
     'about.stat1.value':'50',
@@ -119,7 +119,7 @@ window.I18N = {
     'sponsors.bronze.b3':   'Certificado de participação',
     'sponsors.bronze.b4':   'Logótipo no site',
     'sponsors.official.title':'Patrocinador oficial',
-    'sponsors.official.name': 'Força Aérea Portuguesa',
+    'sponsors.official.name': 'FAP|Força Aérea Portuguesa',
     'sponsors.cta':       'Tornar-me patrocinador',
 
     // Contact
@@ -147,7 +147,7 @@ window.I18N = {
   en: {
     // Meta
     'meta.title':       'International Air Expo (IAE) — PTFS',
-    'meta.description': 'The biggest aviation event organised by PTFS, with the patronage of the Portuguese Air Force.',
+    'meta.description': 'The biggest aviation event organised by AeroPulse with the patronage of the Portuguese Air Force.',
 
     // Header
     'nav.about':        'About',
@@ -178,7 +178,7 @@ window.I18N = {
     // About
     'about.eyebrow':    'About the event',
     'about.title':      'Where aviation comes to life',
-    'about.p1':         'The International Air Expo (IAE) is an aviation event organised by PTFS that brings together aviation enthusiasts, professionals and curious visitors in a unique experience at one of the most emblematic military air bases.',
+    'about.p1':         'The International Air Expo (IAE) is an aviation event organised by AeroPulse that brings together aviation enthusiasts, professionals and curious visitors in a unique experience at one of the most emblematic military air bases.',
     'about.p2':         'With the institutional support of the Portuguese Air Force, IAE features air displays, capability demonstrations and the chance to get up close with the world of military and civil aviation.',
     'about.stat1.label':'Expected visitors',
     'about.stat1.value':'+100',
