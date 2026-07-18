@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%"  stop-color="#0a2540"/>
+      <stop offset="55%" stop-color="#1a4a8a"/>
+      <stop offset="100%" stop-color="#3a8dde"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="80%" cy="20%" r="40%">
+      <stop offset="0%"  stop-color="#f3d97a" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#f3d97a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="300" fill="url(#skyGrad)"/>
+  <rect width="600" height="300" fill="url(#sun)"/>
+
+  <!-- stars / city lights -->
+  <g fill="#ffffff" opacity=".8">
+    <circle cx="60"  cy="40"  r="1.4"/>
+    <circle cx="140" cy="70"  r="1"/>
+    <circle cx="210" cy="30"  r="1.2"/>
+    <circle cx="320" cy="80"  r="1.5"/>
+    <circle cx="420" cy="50"  r="1"/>
+    <circle cx="500" cy="90"  r="1.4"/>
+    <circle cx="555" cy="40"  r="1"/>
+  </g>
+
+  <!-- vapour trails -->
+  <g fill="none" stroke="#ffffff" stroke-linecap="round" opacity=".35">
+    <path d="M20 220 Q 180 180 340 200 T 580 160" stroke-width="2"/>
+    <path d="M40 240 Q 200 200 360 220 T 600 180" stroke-width="1.4" opacity=".5"/>
+  </g>
+
+  <!-- main aircraft -->
+  <g transform="translate(360 150) rotate(-12)">
+    <path d="M0 0 L 100 -4 L 122 0 L 100 4 Z" fill="#ffffff"/>
+    <path d="M30 -24 L 52 -8 L 76 -8 L 64 -24 Z" fill="#ffffff"/>
+    <path d="M30 24 L 52 8 L 76 8 L 64 24 Z" fill="#ffffff"/>
+    <path d="M0 0 L 16 -10 L 20 0 L 16 10 Z" fill="#ffffff"/>
+    <path d="M-10 0 L -26 -3 L -26 3 Z" fill="#ffffff"/>
+    <rect x="50" y="-2" width="14" height="4" fill="#0a2540"/>
+  </g>
+
+  <!-- horizon glow -->
+  <rect x="0" y="220" width="600" height="80" fill="url(#sun)" opacity=".25"/>
+</svg>

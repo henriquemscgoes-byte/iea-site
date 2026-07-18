@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title data-i18n="meta.title">International Air Expo (IAE) — PTFS</title>
+  <meta name="description" data-i18n-attr="content|meta.description" data-i18n="meta.description" content="O maior evento de aviação organizado pelo PTFS, com o patrocínio da Força Aérea Portuguesa." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" data-i18n-attr="content|meta.title" content="International Air Expo (IAE) — PTFS" />
+  <meta property="og:description" data-i18n-attr="content|meta.description" content="O maior evento de aviação organizado pelo PTFS, com o patrocínio da Força Aérea Portuguesa." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_PT" />
+  <meta property="og:locale:alternate" content="en_GB" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ─────────── HEADER ─────────── -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="International Air Expo">
+        <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M2 14l9-2 4-9 2 1-2 8 7-2 1 2-9 5-2 6-2-1 1-5-9 1z" fill="currentColor"/>
+        </svg>
+        <span class="brand-text"><strong>IAE</strong><em>PTFS</em></span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-controls="primaryNav" aria-expanded="false" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="primary-nav" id="primaryNav" aria-label="Navegação principal">
+        <a href="#about"    data-i18n="nav.about">Sobre</a>
+        <a href="#program"  data-i18n="nav.program">Programa</a>
+        <a href="#location" data-i18n="nav.location">Localização</a>
+        <a href="#sponsors" data-i18n="nav.sponsors">Patrocinadores</a>
+        <a href="#contact"  data-i18n="nav.contact">Contacto</a>
+      </nav>
+
+      <button class="lang-toggle" id="langToggle" aria-label="Change language">
+        <span data-i18n="lang.toggle">EN</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ─────────── HERO ─────────── -->
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-bg" aria-hidden="true">
+        <svg class="hero-aircraft" viewBox="0 0 600 300" preserveAspectRatio="xMidYMid meet">
+          <defs>
+            <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="0%"  stop-color="#0a2540"/>
+              <stop offset="60%" stop-color="#1a4a8a"/>
+              <stop offset="100%" stop-color="#3a8dde"/>
+            </linearGradient>
+          </defs>
+          <rect width="600" height="300" fill="url(#sky)"/>
+          <circle cx="120" cy="60" r="2" fill="#fff" opacity=".8"/>
+          <circle cx="220" cy="40" r="1.4" fill="#fff" opacity=".6"/>
+          <circle cx="380" cy="80" r="1.6" fill="#fff" opacity=".7"/>
+          <circle cx="480" cy="50" r="1.2" fill="#fff" opacity=".5"/>
+          <circle cx="540" cy="100" r="1.6" fill="#fff" opacity=".7"/>
+          <!-- vapour trail -->
+          <path d="M40 220 Q 200 180 360 200 T 560 160" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity=".35"/>
+          <!-- aircraft silhouette -->
+          <g transform="translate(360 150) rotate(-12)">
+            <path d="M0 0 L 90 -4 L 110 0 L 90 4 Z" fill="#ffffff"/>
+            <path d="M30 -22 L 50 -8 L 70 -8 L 60 -22 Z" fill="#ffffff"/>
+            <path d="M30 22 L 50 8 L 70 8 L 60 22 Z" fill="#ffffff"/>
+            <path d="M0 0 L 14 -10 L 18 0 L 14 10 Z" fill="#ffffff"/>
+            <path d="M-8 0 L -22 -3 L -22 3 Z" fill="#ffffff"/>
+          </g>
+        </svg>
+      </div>
+
+      <div class="container hero-content">
+        <span class="eyebrow" data-i18n="hero.badge">PTFS · Patrocínio FAP</span>
+        <h1 id="heroTitle" data-i18n="hero.title">INTERNATIONAL AIR EXPO</h1>
+        <p class="hero-subtitle" data-i18n="hero.subtitle">O céu é o limite — uma tarde de aviação, exibições e adrenalina.</p>
+
+        <div class="hero-meta">
+          <div class="hero-meta-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 11h-5v-2h3V6h2v7z" fill="currentColor"/></svg>
+            <span data-i18n="hero.datetime">16h00 (hora de Portugal)</span>
+          </div>
+          <div class="hero-meta-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z" fill="currentColor"/></svg>
+            <span data-i18n="hero.venue">Base Aérea Militar da Royal Air Force (RAF)</span>
+          </div>
+        </div>
+
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary" data-i18n="hero.cta.primary">Quero patrocinar</a>
+          <a href="#program" class="btn btn-ghost" data-i18n="hero.cta.secondary">Ver programa</a>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#about" aria-label="Descer">
+        <span data-i18n="hero.scroll">Descer</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5z" fill="currentColor"/></svg>
+      </a>
+    </section>
+
+    <!-- ─────────── COUNTDOWN ─────────── -->
+    <section class="countdown" aria-labelledby="countdownTitle">
+      <div class="container">
+        <h2 id="countdownTitle" class="countdown-title" data-i18n="countdown.title">Contagem decrescente</h2>
+        <div class="countdown-grid" id="countdownGrid" role="timer" aria-live="polite">
+          <div class="countdown-cell"><span class="num" id="cd-days">--</span><span class="lbl" data-i18n="countdown.days">Dias</span></div>
+          <div class="countdown-cell"><span class="num" id="cd-hours">--</span><span class="lbl" data-i18n="countdown.hours">Horas</span></div>
+          <div class="countdown-cell"><span class="num" id="cd-mins">--</span><span class="lbl" data-i18n="countdown.minutes">Minutos</span></div>
+          <div class="countdown-cell"><span class="num" id="cd-secs">--</span><span class="lbl" data-i18n="countdown.seconds">Segundos</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────── ABOUT ─────────── -->
+    <section id="about" class="section">
+      <div class="container two-col">
+        <div class="col-text reveal">
+          <span class="eyebrow" data-i18n="about.eyebrow">Sobre o evento</span>
+          <h2 data-i18n="about.title">Onde a aviação ganha vida</h2>
+          <p data-i18n="about.p1">O International Air Expo (IAE) é um evento de aviação organizado pelo PTFS que reúne entusiastas, profissionais e curiosos numa experiência única sobrevoando uma das bases militares mais emblemáticas.</p>
+          <p data-i18n="about.p2">Com o patrocínio e apoio institucional da Força Aérea Portuguesa, o IAE traz exibições aéreas, demonstrações de capacidades e a oportunidade de contactar de perto com o mundo da aviação militar e civil.</p>
+        </div>
+        <ul class="stats reveal">
+          <li><strong data-i18n="about.stat1.value">+5.000</strong><span data-i18n="about.stat1.label">Visitantes esperados</span></li>
+          <li><strong data-i18n="about.stat2.value">20+</strong><span data-i18n="about.stat2.label">Aeronaves em exibição</span></li>
+          <li><strong data-i18n="about.stat3.value">Ilimitado</strong><span data-i18n="about.stat3.label">Anos de tradição</span></li>
+          <li><strong data-i18n="about.stat4.value">10+</strong><span data-i18n="about.stat4.label">Países representados</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ─────────── PROGRAM ─────────── -->
+    <section id="program" class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow" data-i18n="program.eyebrow">Programa</span>
+          <h2 data-i18n="program.title">Uma tarde, múltiplas exibições</h2>
+          <p class="lead" data-i18n="program.intro">A programação detalhada das exibições e manobras será anunciada em breve. Os horários abaixo são indicativos.</p>
+        </div>
+
+        <ol class="program-list">
+          <li class="program-item reveal">
+            <span class="program-time" data-i18n="program.item1.time">15:30</span>
+            <h3 data-i18n="program.item1.title">Abertura de portas</h3>
+            <p data-i18n="program.item1.desc">Receção dos visitantes e acesso às áreas de exposição estática.</p>
+          </li>
+          <li class="program-item reveal">
+            <span class="program-time" data-i18n="program.item2.time">16:00</span>
+            <h3 data-i18n="program.item2.title">Cerimónia de abertura</h3>
+            <p data-i18n="program.item2.desc">Hastear da bandeira e discurso de boas-vindas pelas autoridades.</p>
+          </li>
+          <li class="program-item reveal">
+            <span class="program-time" data-i18n="program.item3.time">16:30</span>
+            <h3 data-i18n="program.item3.title">Demonstrações aéreas</h3>
+            <p data-i18n="program.item3.desc">Manobras individuais e de esquadrilha da Força Aérea Portuguesa.</p>
+          </li>
+          <li class="program-item reveal">
+            <span class="program-time" data-i18n="program.item4.time">17:30</span>
+            <h3 data-i18n="program.item4.title">Exibição de aeronaves convidadas</h3>
+            <p data-i18n="program.item4.desc">Aeronaves militares e civis internacionais em voo e no solo.</p>
+          </li>
+          <li class="program-item reveal">
+            <span class="program-time" data-i18n="program.item5.time">18:30</span>
+            <h3 data-i18n="program.item5.title">Demonstração de capacidades</h3>
+            <p data-i18n="program.item5.desc">Operações de busca e salvamento, paraquedismo e coordenação tática.</p>
+          </li>
+          <li class="program-item reveal">
+            <span class="program-time" data-i18n="program.item6.time">19:30</span>
+            <h3 data-i18n="program.item6.title">Encerramento</h3>
+            <p data-i18n="program.item6.desc">Discurso final e agradecimento aos patrocinadores e visitantes.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ─────────── LOCATION ─────────── -->
+    <section id="location" class="section">
+      <div class="container two-col">
+        <div class="col-text reveal">
+          <span class="eyebrow" data-i18n="location.eyebrow">Localização</span>
+          <h2 data-i18n="location.title">Como chegar</h2>
+
+          <dl class="info-list">
+            <dt data-i18n="location.address.label">Morada</dt>
+            <dd data-i18n="location.address.value">Base Aérea Militar da Royal Air Force (RAF)</dd>
+
+            <dt data-i18n="location.transport.label">Transportes</dt>
+            <dd data-i18n="location.transport.value">Acesso rodoviário com parque de visitantes. Coordenadas GPS e indicações detalhadas serão partilhadas após confirmação de inscrição.</dd>
+
+            <dt data-i18n="location.security.label">Segurança</dt>
+            <dd data-i18n="location.security.value">Evento em base militar — documento de identificação obrigatório. Bolsas e mochilas serão inspecionadas à entrada. Não é permitido fotografar áreas restritas.</dd>
+
+            <dt data-i18n="location.access.label">Acessibilidade</dt>
+            <dd data-i18n="location.access.value">Acesso a pessoas com mobilidade reduzida disponível. Contacte a organização com antecedência para apoio personalizado.</dd>
+          </dl>
+        </div>
+
+        <div class="map-wrap reveal">
+          <a class="map-image-link" href="assets/raf-scampton.png" data-lightbox="scampton" aria-label="RAF Scampton">
+            <img class="map-image"
+                 src="assets/raf-scampton.png"
+                 alt="RAF Scampton — Pilot Training Flight Simulator (PTFS)"
+                 loading="lazy" />
+            <span class="map-zoom-hint" aria-hidden="true">🔍</span>
+          </a>
+          <a class="map-link" href="assets/raf-scampton.png" target="_blank" rel="noopener">
+            <span data-i18n="location.address.value">RAF Scampton — Pilot Training Flight Simulator</span> ↗
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────── SPONSORS ─────────── -->
+    <section id="sponsors" class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow" data-i18n="sponsors.eyebrow">Patrocinadores</span>
+          <h2 data-i18n="sponsors.title">Junte-se a nós nos céus</h2>
+          <p class="lead" data-i18n="sponsors.intro">O IAE é possível graças ao apoio de empresas e instituições que partilham a nossa paixão pela aviação. Encontre o nível de patrocínio ideal para a sua marca.</p>
+        </div>
+
+        <div class="sponsor-official reveal">
+          <span class="sponsor-official-label" data-i18n="sponsors.official.title">Patrocinador oficial</span>
+          <span class="sponsor-official-name" data-i18n="sponsors.official.name">Força Aérea Portuguesa</span>
+        </div>
+
+        <div class="tiers">
+          <article class="tier tier-gold reveal">
+            <h3 data-i18n="sponsors.gold.name">Patrocinador Ouro</h3>
+            <div class="tier-section">
+              <h4 data-i18n="sponsors.gold.req">Requisitos</h4>
+              <ul>
+                <li data-i18n="sponsors.gold.r1">Mais de 100 membros reais no servidor de Discord</li>
+                <li data-i18n="sponsors.gold.r2">5 Pilotos, ou 1 Narrador de AirShow, ou 1 ATC (no mínimo)</li>
+              </ul>
+            </div>
+            <div class="tier-section">
+              <h4 data-i18n="sponsors.benefits">Benefícios</h4>
+              <ul>
+                <li data-i18n="sponsors.gold.b1">10 convites VIP</li>
+                <li data-i18n="sponsors.gold.b2">Menção na página de agradecimentos</li>
+                <li data-i18n="sponsors.gold.b3">Certificado de participação</li>
+                <li data-i18n="sponsors.gold.b4">Publicação nas redes sociais a anunciar a entrada do patrocinador</li>
+                <li data-i18n="sponsors.gold.b5">Destaque principal com logótipo no site</li>
+                <li data-i18n="sponsors.gold.b6">Stand PREMIUM na zona de exposição</li>
+                <li data-i18n="sponsors.gold.b7">Menção no discurso de abertura e encerramento</li>
+              </ul>
+            </div>
+          </article>
+          <article class="tier tier-silver reveal">
+            <h3 data-i18n="sponsors.silver.name">Patrocinador Prata</h3>
+            <div class="tier-section">
+              <h4 data-i18n="sponsors.silver.req">Requisitos</h4>
+              <ul>
+                <li data-i18n="sponsors.silver.r1">50 membros reais no servidor de Discord</li>
+                <li data-i18n="sponsors.silver.r2">2 Pilotos, ou 1 ATC, ou 1 Narrador de AirShow</li>
+              </ul>
+            </div>
+            <div class="tier-section">
+              <h4 data-i18n="sponsors.benefits">Benefícios</h4>
+              <ul>
+                <li data-i18n="sponsors.silver.b1">Logótipo no site</li>
+                <li data-i18n="sponsors.silver.b2">Menção na página de agradecimentos</li>
+                <li data-i18n="sponsors.silver.b3">Certificado de participação</li>
+                <li data-i18n="sponsors.silver.b4">6 convites VIP</li>
+                <li data-i18n="sponsors.silver.b5">Publicação nas redes sociais a anunciar a entrada do patrocinador</li>
+                <li data-i18n="sponsors.silver.b6">Stand Standard na zona de exposição</li>
+              </ul>
+            </div>
+          </article>
+          <article class="tier tier-bronze reveal">
+            <h3 data-i18n="sponsors.bronze.name">Patrocinador Bronze</h3>
+            <div class="tier-section">
+              <h4 data-i18n="sponsors.bronze.req">Requisitos</h4>
+              <ul>
+                <li data-i18n="sponsors.bronze.r1">10 membros reais no servidor de Discord</li>
+                <li data-i18n="sponsors.bronze.r2">1 Piloto</li>
+              </ul>
+            </div>
+            <div class="tier-section">
+              <h4 data-i18n="sponsors.benefits">Benefícios</h4>
+              <ul>
+                <li data-i18n="sponsors.bronze.b1">3 convites VIP</li>
+                <li data-i18n="sponsors.bronze.b2">Menção na página de agradecimentos</li>
+                <li data-i18n="sponsors.bronze.b3">Certificado de participação</li>
+                <li data-i18n="sponsors.bronze.b4">Logótipo no site</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="section-cta reveal">
+          <a href="#contact" class="btn btn-primary" data-i18n="sponsors.cta">Tornar-me patrocinador</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────── CONTACT ─────────── -->
+    <section id="contact" class="section">
+      <div class="container two-col">
+        <div class="col-text reveal">
+          <span class="eyebrow" data-i18n="contact.eyebrow">Contacto para patrocínio</span>
+          <h2 data-i18n="contact.title">Vamos conversar</h2>
+          <p data-i18n="contact.intro">Interessado em patrocinar o IAE? Tem uma proposta de parceria ou quer saber mais sobre como associar a sua marca ao evento? Fale connosco.</p>
+
+          <div class="discord-card">
+            <span class="discord-label" data-i18n="contact.discord.label">Discord</span>
+            <span class="discord-value">@<span data-i18n="contact.discord.value">goesmcg</span></span>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <label>
+            <span data-i18n="contact.form.name">Nome</span>
+            <input type="text" name="name" required autocomplete="name" />
+          </label>
+          <label>
+            <span data-i18n="contact.form.email">Email</span>
+            <input type="email" name="email" required autocomplete="email" />
+          </label>
+          <label>
+            <span data-i18n="contact.form.company">Empresa</span>
+            <input type="text" name="company" autocomplete="organization" />
+          </label>
+          <label>
+            <span data-i18n="contact.form.message">Mensagem</span>
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary" data-i18n="contact.form.submit">Enviar mensagem</button>
+          <p class="form-note" data-i18n="contact.form.note">Ao submeter, será aberto o seu cliente de email com a mensagem pré-preenchida.</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ─────────── FOOTER ─────────── -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-tagline" data-i18n="footer.tagline">PTFS — onde a aviação ganha vida.</p>
+      </div>
+      <div class="footer-cols">
+        <div>
+          <strong data-i18n="footer.organized">Organização</strong>
+          <p>PTFS</p>
+        </div>
+        <div>
+          <strong data-i18n="footer.patronage">Patrocínio oficial</strong>
+          <p data-i18n="sponsors.official.name">Força Aérea Portuguesa</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p data-i18n="footer.copyright">© 2026 International Air Expo · Todos os direitos reservados</p>
+      <p class="footer-credits" data-i18n="footer.credits">Imagem da base: RAF Scampton · Pilot Training Flight Simulator (Roblox).</p>
+      <p class="footer-admin-link"><a href="admin.html" data-i18n="footer.admin">Admin</a></p>
+    </div>
+  </footer>
+
+  <!-- Lightbox modal (para a imagem da base) -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true" aria-label="RAF Scampton">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Fechar">×</button>
+    <img id="lightboxImg" alt="" />
+  </div>
+
+  <button class="to-top" id="toTop" aria-label="Voltar ao topo" hidden>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 14l5-5 5 5z" fill="currentColor"/></svg>
+  </button>
+
+  <script src="translations.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
