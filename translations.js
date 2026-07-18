@@ -178,8 +178,8 @@ window.I18N = {
     // About
     'about.eyebrow':    'About the event',
     'about.title':      'Where aviation comes to life',
-    'about.p1':         'The International Air Expo (IAE) is an aviation event organised by PTFS that brings together enthusiasts, professionals and the curious in a unique experience at one of the most emblematic military air bases.',
-    'about.p2':         'With the institutional support of the Portuguese Air Force, IAE delivers air displays, capability demonstrations and the chance to get up close with the world of military and civil aviation.',
+    'about.p1':         'The International Air Expo (IAE) is an aviation event organised by PTFS that brings together aviation enthusiasts, professionals and curious visitors in a unique experience at one of the most emblematic military air bases.',
+    'about.p2':         'With the institutional support of the Portuguese Air Force, IAE features air displays, capability demonstrations and the chance to get up close with the world of military and civil aviation.',
     'about.stat1.label':'Expected visitors',
     'about.stat1.value':'+100',
     'about.stat2.label':'Aircraft on display',
