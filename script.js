@@ -173,18 +173,22 @@ function setupContactForm() {
 
     if (!form.reportValidity()) return;
 
-    const response = await fetch('https://formspree.io/f/TEU_ID', {
-      method: 'POST',
-      body: new FormData(form),
-      headers: {
-        'Accept': 'application/json'
-      }
-    });
+    try {
+      const response = await fetch('https://formspree.io/f/xlgqbwbw', {
+        method: 'POST',
+        body: new FormData(form),
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
 
-    if (response.ok) {
-      alert('Message sent successfully!');
-      form.reset();
-    } else {
+      if (response.ok) {
+        alert('Message sent successfully!');
+        form.reset();
+      } else {
+        alert('There was an error sending your message.');
+      }
+    } catch (error) {
       alert('There was an error sending your message.');
     }
   });
