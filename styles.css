@@ -575,7 +575,22 @@ p  { margin: 0 0 14px; }
   text-transform: uppercase;
   color: var(--c-gold-soft);
 }
-.discord-value { font-weight: 700; font-size: 1.05rem; }
+.discord-value {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.discord-link {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity .2s ease, transform .2s ease;
+}
+
+.discord-link:hover {
+  opacity: .8;
+  transform: translateY(-1px);
+}
 
 .contact-form {
   display: grid;
