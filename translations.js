@@ -277,9 +277,9 @@ window.I18N = {
     'contact.form.note':    'When you submit the form, your email client will open with a pre-filled message.',
 
     // Footer
-    'footer.tagline':   'PTFS — where aviation comes to life.',
+    'footer.tagline':   'PTFS — "Where aviation comes to life..."',
     'footer.organized': 'Organised by',
-    'footer.patronage': 'Official patronage',
+    'footer.patronage': 'Official sponsor',
     'footer.copyright': '© 2026 International Air Expo · All rights reserved',
     'footer.credits':   'Base image: RAF Scampton · Pilot Training Flight Simulator (Roblox).',
     'footer.admin':     'Admin',
