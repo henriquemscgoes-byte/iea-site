@@ -151,7 +151,7 @@ window.I18N = {
 
     // Header
     'nav.about':        'About',
-    'nav.program':      'Programme',
+    'nav.program':      'Program',
     'nav.location':     'Location',
     'nav.sponsors':     'Sponsors',
     'nav.contact':      'Contact',
