@@ -583,20 +583,20 @@ p  { margin: 0 0 14px; }
 .form-note { margin: 6px 0 0; color: var(--c-ink-soft); font-size: .85rem; }
 
 /* ─────────── Footer ─────────── */
-.site-footer { background: #0a1a2e; color: #c9d4e6; padding: 56px 0 24px; margin-top: 0; }
+.site-footer { background: #f2f4f7; color: #344054; padding: 56px 0 24px; margin-top: 0; }
 .footer-inner {
   display: grid; grid-template-columns: 1fr; gap: 28px;
   align-items: start;
 }
-.footer-tagline { font-size: 1.05rem; color: #fff; font-weight: 600; }
+.footer-tagline { font-size: 1.05rem; color: #0a1a2e; font-weight: 600; }
 .footer-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
 .footer-cols strong { display: block; color: var(--c-gold-soft); font-size: .78rem; letter-spacing: .2em; text-transform: uppercase; margin-bottom: 4px; }
 .footer-cols p { margin: 0; }
-.footer-bottom { margin-top: 32px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,.08); color: #8da0bf; font-size: .85rem; }
+.footer-bottom { margin-top: 32px; padding-top: 18px; border-top: 1px solid rgba(0,0,0,.08); color: #667085; font-size: .85rem; }
 .footer-bottom p { margin: 0 0 4px; }
 .footer-credits { opacity: .8; font-size: .8rem; }
 .footer-admin-link { margin-top: 8px; opacity: .6; }
-.footer-admin-link a { color: #8da0bf; font-size: .75rem; }
+.footer-admin-link a { color: #667085; font-size: .75rem; }
 .footer-admin-link a:hover { color: var(--c-gold-soft); }
 
 /* ─────────── To-top ─────────── */
