@@ -136,7 +136,7 @@ window.I18N = {
     'contact.form.note':    'Ao submeter, será aberto o seu cliente de email com a mensagem pré-preenchida.',
 
     // Footer
-    'footer.tagline':   'PTFS — onde a aviação ganha vida.',
+    'footer.tagline':   'PTFS — "Onde a aviação ganha vida..."',
     'footer.organized': 'Organização',
     'footer.patronage': 'Patrocínio oficial',
     'footer.copyright': '© 2026 International Air Expo · Todos os direitos reservados',
