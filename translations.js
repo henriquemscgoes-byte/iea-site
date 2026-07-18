@@ -260,7 +260,7 @@ window.I18N = {
     'sponsors.bronze.b3':   'Certificate of participation',
     'sponsors.bronze.b4':   'Logo on the website',
     'sponsors.official.title':'Official patron',
-    'sponsors.official.name': 'Portuguese Air Force',
+    'sponsors.official.name': 'FAP|Portuguese Air Force',
     'sponsors.cta':       'Become a sponsor',
 
     // Contact
