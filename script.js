@@ -163,34 +163,32 @@
     });
   }
 
-  // ─── Formulário de contacto (mailto) ──────────────────────────
-  function setupContactForm() {
-    const form = document.getElementById('contactForm');
-    if (!form) return;
-    form.addEventListener('submit', (ev) => {
-      ev.preventDefault();
-      if (!form.reportValidity()) return;
-      const fd = new FormData(form);
-      const name    = (fd.get('name')    || '').toString().trim();
-      const email   = (fd.get('email')   || '').toString().trim();
-      const company = (fd.get('company') || '').toString().trim();
-      const message = (fd.get('message') || '').toString().trim();
+// ─── Formulário de contacto ───────────────────────────────────
+function setupContactForm() {
+  const form = document.getElementById('contactForm');
+  if (!form) return;
 
-      const subject = `[IAE · Sponsorship] ${name}${company ? ' — ' + company : ''}`;
-      const body =
-`Hello,
+  form.addEventListener('submit', async (ev) => {
+    ev.preventDefault();
 
-My name is ${name}${company ? `, from ${company}` : ''}.
-You can reach me at: ${email}
+    if (!form.reportValidity()) return;
 
-${message}
-
-— Sent from the IAE website.`;
-
-      const href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-      window.location.href = href;
+    const response = await fetch('https://formspree.io/f/TEU_ID', {
+      method: 'POST',
+      body: new FormData(form),
+      headers: {
+        'Accept': 'application/json'
+      }
     });
-  }
+
+    if (response.ok) {
+      alert('Message sent successfully!');
+      form.reset();
+    } else {
+      alert('There was an error sending your message.');
+    }
+  });
+}
 
   // ─── Lightbox (imagem clicável da base) ───────────────────────
   function setupLightbox() {
