@@ -39,7 +39,7 @@ window.I18N = {
     'about.p1':         'O International Air Expo (IAE) é um evento de aviação organizado pelo PTFS que reúne entusiastas, profissionais e curiosos numa experiência única sobrevoando uma das bases militares mais emblemáticas.',
     'about.p2':         'Com o patrocínio e apoio institucional da Força Aérea Portuguesa, o IAE traz exibições aéreas, demonstrações de capacidades e a oportunidade de contactar de perto com o mundo da aviação militar e civil.',
     'about.stat1.label':'Visitantes esperados',
-    'about.stat1.value':'100',
+    'about.stat1.value':'50',
     'about.stat2.label':'Aeronaves em exibição',
     'about.stat2.value':'20+',
     'about.stat3.label':'Anos de tradição',
