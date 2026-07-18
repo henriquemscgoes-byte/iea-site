@@ -266,7 +266,7 @@ window.I18N = {
     // Contact
     'contact.eyebrow':  'Sponsorship contact',
     'contact.title':    'Let\'s talk',
-    'contact.intro':    'Interested in sponsoring IAE? Have a partnership proposal or want to know more about how to associate your brand with the event? Get in touch.',
+    'contact.intro':    'Interested in sponsoring IAE? Have a partnership proposal or want to know more about how to associate your brand with the event? Contact us.',
     'contact.discord.label': 'Discord',
     'contact.discord.value': 'goesmcg',
     'contact.form.name':    'Name in Discord',
