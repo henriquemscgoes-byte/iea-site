@@ -232,7 +232,7 @@ window.I18N = {
     'sponsors.gold.name':   'Gold Sponsor',
     'sponsors.gold.req':    'Requirements',
     'sponsors.gold.r1':    'More than 100 active members on the Discord server',
-    'sponsors.gold.r2':    '5 pilots, 1 airshow narrator, or 1 ATC (minimum)',
+    'sponsors.gold.r2':    '5 pilots, or 1 airshow narrator, or 1 ATC (minimum)',
     'sponsors.gold.b1':     '10 VIP passes',
     'sponsors.gold.b2':     'Mention on the acknowledgements page',
     'sponsors.gold.b3':     'Certificate of participation',
