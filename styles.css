@@ -712,3 +712,40 @@ p  { margin: 0 0 14px; }
   outline-offset: 2px;
   border-radius: 4px;
 }
+
+/* ===========================
+   BOTÃO DISCORD
+=========================== */
+
+.discord-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    margin-top:20px;
+    padding:14px 34px;
+
+    background:#142c4b;
+    color:#fff;
+    text-decoration:none;
+
+    border-radius:14px;
+    font-weight:700;
+    letter-spacing:2px;
+    text-transform:uppercase;
+
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        background .25s ease;
+}
+
+.discord-btn:hover{
+    background:#1d4ed8;
+    transform:translateY(-3px) scale(1.04);
+    box-shadow:0 12px 30px rgba(29,78,216,.35);
+}
+
+.discord-btn:active{
+    transform:scale(.97);
+}
