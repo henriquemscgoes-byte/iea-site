@@ -118,7 +118,7 @@ window.I18N = {
     'sponsors.bronze.b2':   'Menção na página de agradecimentos',
     'sponsors.bronze.b3':   'Certificado de participação',
     'sponsors.bronze.b4':   'Logótipo no site',
-    'sponsors.official.title':'Patrocinador oficial',
+    'sponsors.official.title':'Patrocinadores Oficiais',
     'sponsors.official.name': 'FAP|Força Aérea Portuguesa',
     'sponsors.cta':       'Tornar-me patrocinador',
 
@@ -279,7 +279,7 @@ window.I18N = {
     // Footer
     'footer.tagline':   'PTFS — "Where aviation comes to life..."',
     'footer.organized': 'Organised by',
-    'footer.patronage': 'Official sponsor',
+    'footer.patronage': 'Official Sponsors',
     'footer.copyright': '© 2026 International Air Expo · All rights reserved',
     'footer.credits':   'Base image: RAF Scampton · Pilot Training Flight Simulator (Roblox).',
     'footer.admin':     'Admin',
