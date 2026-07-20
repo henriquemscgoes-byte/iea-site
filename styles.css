@@ -632,6 +632,18 @@ p  { margin: 0 0 14px; }
 .footer-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
 .footer-cols strong { display: block; color: var(--c-gold-soft); font-size: .78rem; letter-spacing: .2em; text-transform: uppercase; margin-bottom: 4px; }
 .footer-cols p { margin: 0; }
+.sponsor-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  align-items: center;
+}
+.sponsor-logo {
+  height: 60px;
+  width: auto;
+  max-width: 130px;
+  object-fit: contain;
+}
 .footer-bottom { margin-top: 32px; padding-top: 18px; border-top: 1px solid rgba(0,0,0,.08); color: #667085; font-size: .85rem; }
 .footer-bottom p { margin: 0 0 4px; }
 .footer-credits { opacity: .8; font-size: .8rem; }
