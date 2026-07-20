@@ -5,7 +5,7 @@ window.I18N = {
   pt: {
     // Meta
     'meta.title':       'International Air Expo (IAE) — PTFS',
-    'meta.description': 'O maior evento de aviação organizado pela empresa AeroPulse, com o patrocínio da Força Aérea Portuguesa.',
+    'meta.description': 'O maior evento de aviação organizado pela empresa AeroPulse, com o patrocínio da Força Aérea Portuguesa e TAP Air Portugal.',
 
     // Header
     'nav.about':        'Sobre',
@@ -17,7 +17,7 @@ window.I18N = {
     'lang.aria':        'Mudar idioma',
 
     // Hero
-    'hero.badge':       'PTFS · Patrocínio FAP',
+    'hero.badge':       'PTFS · Patrocínio FAP e TAP',
     'hero.title':       'INTERNATIONAL AIR EXPO',
     'hero.subtitle':    'O céu é o limite — uma tarde de aviação, exibições e adrenalina.',
     'hero.datetime':    '16h40 (hora de Portugal)',
@@ -37,7 +37,7 @@ window.I18N = {
     'about.eyebrow':    'Sobre o evento',
     'about.title':      'Onde a aviação ganha vida',
     'about.p1':         'O International Air Expo (IAE) é um evento de aviação organizado pela grande empresa AeroPulse que reúne entusiastas, profissionais e curiosos numa experiência única sobrevoando uma das bases militares mais emblemáticas.',
-    'about.p2':         'Com o patrocínio e apoio institucional da Força Aérea Portuguesa, o IAE traz exibições aéreas, demonstrações de capacidades e a oportunidade de contactar de perto com o mundo da aviação militar e civil.',
+    'about.p2':         'Com o patrocínio e apoio institucional da Força Aérea Portuguesa e da TAP, o IAE traz exibições aéreas, demonstrações de capacidades e a oportunidade de contactar de perto com o mundo da aviação militar e civil.',
     'about.stat1.label':'Visitantes esperados',
     'about.stat1.value':'50',
     'about.stat2.label':'Aeronaves em exibição',
@@ -64,7 +64,7 @@ window.I18N = {
     'program.item3.desc': 'Manobras individuais e de esquadrilha da Força Aérea Portuguesa.',
     'program.item4.time':'17:40',
     'program.item4.title':'Exibição de aeronaves convidadas',
-    'program.item4.desc': 'Aeronaves militares e civis internacionais em voo e no solo.',
+    'program.item4.desc': 'Aeronaves militares e civis internacionais (TAP) em voo e no solo.',
     'program.item5.time':'18:00',
     'program.item5.title':'Demonstração de capacidades',
     'program.item5.desc': 'Operações de busca e salvamento, paraquedismo e coordenação tática.',
@@ -119,7 +119,7 @@ window.I18N = {
     'sponsors.bronze.b3':   'Certificado de participação',
     'sponsors.bronze.b4':   'Logótipo no site',
     'sponsors.official.title':'Patrocinadores Oficiais',
-    'sponsors.official.name': 'FAP|Força Aérea Portuguesa',
+    'sponsors.official.name': 'FAP|Força Aérea Portuguesa e TAP Air Portugal',
     'sponsors.cta':       'Tornar-me patrocinador',
 
     // Contact
